@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — Detetive: Resolva o Caso</title>
+<style>
+  :root { --navy:#12233b; --gold:#f2b01e; --ink:#e8eef5; --muted:#9fb0c6; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:#0c182a; color:var(--ink);
+         font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif; }
+  .wrap { max-width:820px; margin:0 auto; padding:32px 20px 64px; }
+  header { border-left:5px solid var(--gold); padding-left:16px; margin-bottom:28px; }
+  h1 { font-size:26px; margin:0 0 6px; color:#fff; }
+  .meta { color:var(--muted); font-size:14px; }
+  h2 { font-size:19px; margin:30px 0 10px; color:var(--gold); }
+  p, li { color:var(--ink); }
+  ul { padding-left:22px; }
+  strong { color:#fff; }
+  code { background:#1b2f4b; padding:1px 6px; border-radius:4px; font-size:14px; }
+  a { color:var(--gold); }
+  footer { margin-top:40px; padding-top:18px; border-top:1px solid #243a58;
+           color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Política de Privacidade</h1>
+    <div class="meta">Detetive — Resolva o Caso · Mini Monkey · Versão de 17/11/2026</div>
+  </header>
+
+  <p>Detetive — Resolva o Caso é um jogo de investigação fictícia distribuído por Mini Monkey. Esta política descreve como o aplicativo lida com informações.</p>
+
+  <h2>Resumo</h2>
+  <p>O aplicativo funciona <strong>offline</strong>. Ele não cria conta, não solicita login, não envia dados para servidores, não usa anúncios, não usa ferramentas de análise e não oferece compras.</p>
+
+  <h2>Informações armazenadas no dispositivo</h2>
+  <p>O progresso do jogo é salvo apenas no armazenamento local do próprio dispositivo (<code>localStorage</code>). São gravados:</p>
+  <ul>
+    <li>estado do jogo e dos casos;</li>
+    <li>resultados e pontuações;</li>
+    <li>caso em andamento.</li>
+  </ul>
+  <p>Essas informações existem para manter sua sessão de jogo. Elas <strong>não são enviadas</strong> pelo aplicativo a servidores nem compartilhadas automaticamente com terceiros.</p>
+  <p>A preferência relacionada à funcionalidade de anúncios também é gravada localmente (<code>detetive.ads.enabled</code>); nesta primeira versão o aplicativo é distribuído sem anúncios.</p>
+
+  <h2>Compartilhamento feito pelo usuário</h2>
+  <p>O aplicativo oferece botões de compartilhamento (<strong>Compartilhar progresso</strong>, <strong>Convidar para jogar</strong> e <strong>Compartilhar</strong> ao final de cada caso). Quando você os aciona, um resumo em texto — código e título do caso, pontuação, classificação e, se você optar, a solução — é entregue de uma destas formas:</p>
+  <ul>
+    <li>ao mecanismo de compartilhamento do sistema operacional (<code>navigator.share</code>);</li>
+    <li>à área de transferência, para você colar onde quiser;</li>
+    <li>ao <strong>WhatsApp</strong>, por meio de um link <code>wa.me</code> aberto somente quando você toca no botão correspondente.</li>
+  </ul>
+  <p>Esse envio acontece <strong>somente por sua iniciativa</strong> e para o destino que você escolher. O aplicativo não lê seus contatos, não escolhe destinatários e não transmite esse texto por conta própria. O aplicativo não possui integração com SDKs de redes sociais; o WhatsApp é apenas o aplicativo de destino que você escolhe abrir.</p>
+
+  <h2>Permissões</h2>
+  <p>O projeto Android gerado declara a permissão <code>android.permission.INTERNET</code>, incluída pela infraestrutura padrão do Capacitor/WebView. O aplicativo não realiza chamadas de rede: não há requisições HTTP, carregamento de conteúdo remoto, CDN, SDK de anúncios nem analytics.</p>
+
+  <h2>Exclusão de dados</h2>
+  <p>Você pode apagar seus dados a qualquer momento nas telas do aplicativo:</p>
+  <ul>
+    <li><strong>Configurações → Zerar progresso</strong>;</li>
+    <li><strong>Configurações → Apagar tudo</strong>;</li>
+    <li><strong>Histórico de investigações → Limpar histórico</strong>.</li>
+  </ul>
+  <p>Desinstalar o aplicativo também remove os dados locais associados a ele.</p>
+
+  <h2>Crianças</h2>
+  <p>O aplicativo não é voltado a crianças menores de 13 anos. Seus casos são histórias fictícias de investigação criminal (roubos, desaparecimentos, fraudes e homicídios), sem violência gráfica.</p>
+
+  <h2>Terceiros</h2>
+  <p>Não há anúncios, analytics, serviços de login, compras ou qualquer outro serviço de terceiro integrado ao aplicativo. O único destino externo possível é o WhatsApp, e apenas quando você escolhe compartilhar um texto por meio do botão correspondente; nenhum dado é enviado automaticamente.</p>
+
+  <h2>Contato</h2>
+  <p>Dúvidas sobre esta política podem ser enviadas para: <a href="mailto:minimonkeyoficial@gmail.com">minimonkeyoficial@gmail.com</a>.</p>
+
+  <footer>Política de Privacidade — Detetive: Resolva o Caso · Mini Monkey</footer>
+</div>
+</body>
+</html>
